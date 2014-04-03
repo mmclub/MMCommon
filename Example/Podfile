@@ -1,0 +1,7 @@
+pod "MMCommon", :path => "../"
+
+target "Demo" do
+end
+
+target "DemoTests" do
+end
