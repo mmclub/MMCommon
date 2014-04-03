@@ -24,6 +24,8 @@
 		C5FF0A1918ED1204006D8409 /* MMStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FF0A1818ED1204006D8409 /* MMStorage.m */; };
 		C5FF0A1D18ED1255006D8409 /* ios in Resources */ = {isa = PBXBuildFile; fileRef = C5FF0A1C18ED1255006D8409 /* ios */; };
 		C5FF0A2018ED16A4006D8409 /* MMTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FF0A1F18ED16A4006D8409 /* MMTest.m */; };
+		C5FF0A2318ED1AC6006D8409 /* MMHTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FF0A2218ED1AC6006D8409 /* MMHTTP.m */; };
+		C5FF0A2618ED1B04006D8409 /* MMButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FF0A2518ED1B04006D8409 /* MMButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,12 @@
 		C5FF0A1C18ED1255006D8409 /* ios */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ios; path = ../Classes/ios; sourceTree = "<group>"; };
 		C5FF0A1E18ED16A4006D8409 /* MMTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMTest.h; path = ../Classes/ios/MMTest.h; sourceTree = "<group>"; };
 		C5FF0A1F18ED16A4006D8409 /* MMTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMTest.m; path = ../Classes/ios/MMTest.m; sourceTree = "<group>"; };
+		C5FF0A2118ED1AC6006D8409 /* MMHTTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMHTTP.h; path = ../Classes/ios/MMHTTP.h; sourceTree = "<group>"; };
+		C5FF0A2218ED1AC6006D8409 /* MMHTTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMHTTP.m; path = ../Classes/ios/MMHTTP.m; sourceTree = "<group>"; };
+		C5FF0A2418ED1B04006D8409 /* MMButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMButton.h; path = ../Classes/ios/MMButton.h; sourceTree = "<group>"; };
+		C5FF0A2518ED1B04006D8409 /* MMButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMButton.m; path = ../Classes/ios/MMButton.m; sourceTree = "<group>"; };
+		C5FF0A2718ED1B23006D8409 /* MMMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MMMacro.h; path = ../Classes/ios/MMMacro.h; sourceTree = "<group>"; };
+		C5FF0A2818ED1B35006D8409 /* MMCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MMCommon.h; path = ../Classes/ios/MMCommon.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,11 +98,10 @@
 		C5FF09D118ED10ED006D8409 = {
 			isa = PBXGroup;
 			children = (
+				C5FF0A2B18ED1B5F006D8409 /* UI */,
+				C5FF0A2A18ED1B53006D8409 /* Classes */,
+				C5FF0A2918ED1B4A006D8409 /* Header */,
 				C5FF0A1C18ED1255006D8409 /* ios */,
-				C5FF0A1718ED1204006D8409 /* MMStorage.h */,
-				C5FF0A1818ED1204006D8409 /* MMStorage.m */,
-				C5FF0A1E18ED16A4006D8409 /* MMTest.h */,
-				C5FF0A1F18ED16A4006D8409 /* MMTest.m */,
 				C5FF09E318ED10ED006D8409 /* MMCommonExample */,
 				C5FF0A0218ED10ED006D8409 /* MMCommonExampleTests */,
 				C5FF09DC18ED10ED006D8409 /* Frameworks */,
@@ -163,6 +170,37 @@
 				C5FF0A0518ED10ED006D8409 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5FF0A2918ED1B4A006D8409 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				C5FF0A2718ED1B23006D8409 /* MMMacro.h */,
+				C5FF0A2818ED1B35006D8409 /* MMCommon.h */,
+			);
+			name = Header;
+			sourceTree = "<group>";
+		};
+		C5FF0A2A18ED1B53006D8409 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C5FF0A1E18ED16A4006D8409 /* MMTest.h */,
+				C5FF0A1F18ED16A4006D8409 /* MMTest.m */,
+				C5FF0A1718ED1204006D8409 /* MMStorage.h */,
+				C5FF0A1818ED1204006D8409 /* MMStorage.m */,
+				C5FF0A2118ED1AC6006D8409 /* MMHTTP.h */,
+				C5FF0A2218ED1AC6006D8409 /* MMHTTP.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		C5FF0A2B18ED1B5F006D8409 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C5FF0A2418ED1B04006D8409 /* MMButton.h */,
+				C5FF0A2518ED1B04006D8409 /* MMButton.m */,
+			);
+			name = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +305,8 @@
 				C5FF09EE18ED10ED006D8409 /* MMAppDelegate.m in Sources */,
 				C5FF0A1918ED1204006D8409 /* MMStorage.m in Sources */,
 				C5FF09F418ED10ED006D8409 /* MMViewController.m in Sources */,
+				C5FF0A2618ED1B04006D8409 /* MMButton.m in Sources */,
+				C5FF0A2318ED1AC6006D8409 /* MMHTTP.m in Sources */,
 				C5FF09EA18ED10ED006D8409 /* main.m in Sources */,
 				C5FF0A2018ED16A4006D8409 /* MMTest.m in Sources */,
 			);
