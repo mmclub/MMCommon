@@ -23,6 +23,7 @@
 		C5FF0A0918ED10ED006D8409 /* MMCommonExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FF0A0818ED10ED006D8409 /* MMCommonExampleTests.m */; };
 		C5FF0A1918ED1204006D8409 /* MMStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FF0A1818ED1204006D8409 /* MMStorage.m */; };
 		C5FF0A1D18ED1255006D8409 /* ios in Resources */ = {isa = PBXBuildFile; fileRef = C5FF0A1C18ED1255006D8409 /* ios */; };
+		C5FF0A2018ED16A4006D8409 /* MMTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FF0A1F18ED16A4006D8409 /* MMTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		C5FF0A1718ED1204006D8409 /* MMStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMStorage.h; path = ../Classes/ios/MMStorage.h; sourceTree = "<group>"; };
 		C5FF0A1818ED1204006D8409 /* MMStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMStorage.m; path = ../Classes/ios/MMStorage.m; sourceTree = "<group>"; };
 		C5FF0A1C18ED1255006D8409 /* ios */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ios; path = ../Classes/ios; sourceTree = "<group>"; };
+		C5FF0A1E18ED16A4006D8409 /* MMTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMTest.h; path = ../Classes/ios/MMTest.h; sourceTree = "<group>"; };
+		C5FF0A1F18ED16A4006D8409 /* MMTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMTest.m; path = ../Classes/ios/MMTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,8 @@
 				C5FF0A1C18ED1255006D8409 /* ios */,
 				C5FF0A1718ED1204006D8409 /* MMStorage.h */,
 				C5FF0A1818ED1204006D8409 /* MMStorage.m */,
+				C5FF0A1E18ED16A4006D8409 /* MMTest.h */,
+				C5FF0A1F18ED16A4006D8409 /* MMTest.m */,
 				C5FF09E318ED10ED006D8409 /* MMCommonExample */,
 				C5FF0A0218ED10ED006D8409 /* MMCommonExampleTests */,
 				C5FF09DC18ED10ED006D8409 /* Frameworks */,
@@ -263,6 +268,7 @@
 				C5FF0A1918ED1204006D8409 /* MMStorage.m in Sources */,
 				C5FF09F418ED10ED006D8409 /* MMViewController.m in Sources */,
 				C5FF09EA18ED10ED006D8409 /* main.m in Sources */,
+				C5FF0A2018ED16A4006D8409 /* MMTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +473,7 @@
 				C5FF0A0E18ED10ED006D8409 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C5FF0A0F18ED10ED006D8409 /* Build configuration list for PBXNativeTarget "MMCommonExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +482,7 @@
 				C5FF0A1118ED10ED006D8409 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
