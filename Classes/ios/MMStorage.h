@@ -12,6 +12,8 @@
 
 +(void) setArray : (NSArray *)array key : (NSString *) keyName;
 +(NSArray *) getArrayWithKey : (NSString *)keyName;
++(NSString *)storeImage:(UIImage *)image withName:(NSString *)name;
++(UIImage *)imageFromName:(NSString *)name;
 
 
 @end

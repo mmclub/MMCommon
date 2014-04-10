@@ -10,4 +10,13 @@
 
 @interface MMButton : NSObject
 
+
+
++(UIButton *)buttonWithFrame :(CGRect) frame
+                        title:(NSString *)title
+                 borderWidth :(double) width
+               borderColorRGB:(int) rgb
+                       radius:(double)radius;
+
+
 @end

@@ -10,4 +10,7 @@
 
 @interface MMHTTP : NSObject
 
++(NSURLRequest *)urlRequestFromString:(NSString *)string;
+
+
 @end

@@ -24,4 +24,32 @@
 }
 
 
++(NSString *)storeImage:(UIImage *)image withName:(NSString *)name{
+    NSData *imageData = UIImagePNGRepresentation(image);
+    
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *documentsDirectory = [paths objectAtIndex:0];
+    
+    NSString *imagePath =[documentsDirectory stringByAppendingPathComponent:name];
+    
+    NSLog((@"pre writing to file"));
+    if (![imageData writeToFile:imagePath atomically:NO])
+    {
+        NSLog(@"Failed to cache image data to disk");
+    }
+    else
+    {
+        NSLog(@"the cachedImagedPath is %@",imagePath);
+    }
+    
+    return imagePath;
+}
+
++(UIImage *)imageFromName:(NSString *)name{
+    return [UIImage imageWithContentsOfFile:name];
+}
+
+
+
+
 @end

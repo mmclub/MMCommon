@@ -10,4 +10,10 @@
 
 @implementation MMHTTP
 
++(NSURLRequest *)urlRequestFromString:(NSString *)string{
+    NSURL *url = [NSURL URLWithString:string];
+    return [NSURLRequest requestWithURL:url];
+}
+
+
 @end

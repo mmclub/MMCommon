@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C536C9FB18F62EE0006426F2 /* MMViewControllerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C536C9FA18F62EE0006426F2 /* MMViewControllerHelper.m */; };
 		C5FF09DE18ED10ED006D8409 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5FF09DD18ED10ED006D8409 /* Foundation.framework */; };
 		C5FF09E018ED10ED006D8409 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5FF09DF18ED10ED006D8409 /* CoreGraphics.framework */; };
 		C5FF09E218ED10ED006D8409 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5FF09E118ED10ED006D8409 /* UIKit.framework */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C536C9F918F62EE0006426F2 /* MMViewControllerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMViewControllerHelper.h; path = ../Classes/ios/MMViewControllerHelper.h; sourceTree = "<group>"; };
+		C536C9FA18F62EE0006426F2 /* MMViewControllerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMViewControllerHelper.m; path = ../Classes/ios/MMViewControllerHelper.m; sourceTree = "<group>"; };
 		C5FF09DA18ED10ED006D8409 /* MMCommonExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMCommonExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5FF09DD18ED10ED006D8409 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C5FF09DF18ED10ED006D8409 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -187,6 +190,8 @@
 				C5FF0A1E18ED16A4006D8409 /* MMTest.h */,
 				C5FF0A1F18ED16A4006D8409 /* MMTest.m */,
 				C5FF0A1718ED1204006D8409 /* MMStorage.h */,
+				C536C9F918F62EE0006426F2 /* MMViewControllerHelper.h */,
+				C536C9FA18F62EE0006426F2 /* MMViewControllerHelper.m */,
 				C5FF0A1818ED1204006D8409 /* MMStorage.m */,
 				C5FF0A2118ED1AC6006D8409 /* MMHTTP.h */,
 				C5FF0A2218ED1AC6006D8409 /* MMHTTP.m */,
@@ -306,6 +311,7 @@
 				C5FF0A1918ED1204006D8409 /* MMStorage.m in Sources */,
 				C5FF09F418ED10ED006D8409 /* MMViewController.m in Sources */,
 				C5FF0A2618ED1B04006D8409 /* MMButton.m in Sources */,
+				C536C9FB18F62EE0006426F2 /* MMViewControllerHelper.m in Sources */,
 				C5FF0A2318ED1AC6006D8409 /* MMHTTP.m in Sources */,
 				C5FF09EA18ED10ED006D8409 /* main.m in Sources */,
 				C5FF0A2018ED16A4006D8409 /* MMTest.m in Sources */,
