@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+#import "MMMacro.h"
+
 @interface MMButton : NSObject
 
 
